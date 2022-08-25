@@ -3,6 +3,9 @@ class Node:
         self.val = val
         self.next = next
 
+"""
+Note: We will be using LinkedList for Queue Implementation.
+"""
 class Queue:
     # Note: Utilize the tail pointer to achieve O(1) enqueue
     # time complexity
