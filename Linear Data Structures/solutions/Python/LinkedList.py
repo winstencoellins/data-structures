@@ -38,6 +38,7 @@ class LinkedList:
     # Insert the new element to the front of the LinkedList
     # to achieve O(1) time complexity
     # Can we do an insert back with O(1) time complexity? If so, how?
+    # You are welcome to implement it
     def insertFront(self, n):
         if self.head is None:
             self.head = Node(n)
@@ -103,11 +104,11 @@ class LinkedList:
         return s
 
 l = LinkedList()
-l.insertFront(1)
-l.insertFront(2)
-l.insertFront(3)
-l.insertFront(4)
-l.insertFront(5)
+l.insertFront("Sam")
+l.insertFront("John")
+l.insertFront("Doe")
+l.insertFront("Randy")
+l.insertFront("Lucy")
 
 print(l)
 
